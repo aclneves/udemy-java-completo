@@ -1,6 +1,5 @@
 package aulas;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Console {

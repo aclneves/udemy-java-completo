@@ -1,8 +1,6 @@
 package exercicios;
 
 
-import org.w3c.dom.ls.LSOutput;
-
 public class CalculosAritimeticos {
     public static void main(String[] args) {
 
