@@ -1,6 +1,6 @@
-package aulas;
+package aulas.operadores;
 
-public class OperadoresAritimeticos {
+public class Aritimeticos {
     public static void main(String[] args) {
         System.out.println(2 + 3);
 
