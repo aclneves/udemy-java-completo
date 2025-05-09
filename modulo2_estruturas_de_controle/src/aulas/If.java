@@ -1,0 +1,29 @@
+package aulas;
+
+import java.util.Scanner;
+
+public class If {
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Informe a média do aluno: ");
+        double media = in.nextDouble();
+
+        in.close();
+
+        if (media >= 7.0 && media <= 10) {
+            System.out.println("Aprovado!");
+            System.out.println("Parabéns!");
+        }
+
+        if (media < 7 && media >= 5) {
+            System.out.println("Recuperação!");
+        }
+
+        boolean criterioReprovacao = media < 4.5 && media >= 0;
+        if (media < 4.5 && media >= 0) {
+            System.out.println("Reprovado");
+        }
+    }
+}

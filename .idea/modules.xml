@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/modulo1_fundamentos/modulo1_fundamentos.iml" filepath="$PROJECT_DIR$/modulo1_fundamentos/modulo1_fundamentos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modulo2_estruturas_de_controle/modulo2_estruturas_de_controle.iml" filepath="$PROJECT_DIR$/modulo2_estruturas_de_controle/modulo2_estruturas_de_controle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/udemy-java-completo.iml" filepath="$PROJECT_DIR$/.idea/udemy-java-completo.iml" />
+    </modules>
+  </component>
+</project>
