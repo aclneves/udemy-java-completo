@@ -9,7 +9,7 @@ public class For1 {
 
         int x = 2;
         for(; x < 10; x++) {
-            System.out.printf("x = %d\n", x);;
+            System.out.printf("x = %d\n", x);
         }
 
         // Laço infintio

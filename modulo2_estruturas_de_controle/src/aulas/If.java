@@ -22,7 +22,7 @@ public class If {
         }
 
         boolean criterioReprovacao = media < 4.5 && media >= 0;
-        if (media < 4.5 && media >= 0) {
+        if (criterioReprovacao) {
             System.out.println("Reprovado");
         }
     }
