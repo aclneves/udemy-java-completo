@@ -5,19 +5,14 @@ import java.util.Scanner;
 public class CalculoEquacaoSegundoGrau {
     public static void main(String[] args) {
 
-        int a = 0;
-        int b = 0;
-        int c = 0;
-
-
         Scanner in = new Scanner(System.in);
 
         System.out.print("Digite o numero do elemento 'a' na equação de segundo grau: ");
-        a = in.nextInt();
+        int a = in.nextInt();
         System.out.print("Digite o numero do elemento 'b' na equação de segundo grau: ");
-        b = in.nextInt();
+        int b = in.nextInt();
         System.out.print("Digite o numero do elemento 'c' na equação de segundo grau: ");
-        c = in.nextInt();
+        int c = in.nextInt();
 
         in.close();
 
@@ -30,8 +25,7 @@ public class CalculoEquacaoSegundoGrau {
         double segunda_raiz = (-b - Math.sqrt(delta)) / (2 * a);
 
 
-        System.out.printf("\n\nAs raízes dessa esquação de segundo grau são: \nx1 = %.2f \nx2 = %.2f",
-                primeira_raiz, segunda_raiz);
+        System.out.printf("\n\nAs raízes dessa esquação de segundo grau são: \nx1 = %.2f \nx2 = %.2f", primeira_raiz, segunda_raiz);
 
 
     }
